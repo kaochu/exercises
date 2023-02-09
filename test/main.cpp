@@ -1,10 +1,11 @@
 #include<iostream>
-#include"tree.h"
 #include<vector>
+#include"tree.h"
+#include"algorithm .h"
 
 int main()
 {
-	sushu();//ËØÊı
+	//sushu();//ËØÊı
 	
 	//shuzu();//Ã°ÅİÅÅĞò
 
@@ -19,7 +20,13 @@ int main()
 
 	//cout << isPalindrome(234) << endl;
 
+	//RomanToInt();
+
+	//qianzhuihe();
 	
+	//init();
+
+
 	system("pause");
 	return 0;
 

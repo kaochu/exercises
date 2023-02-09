@@ -1,6 +1,9 @@
 #pragma once
 #include<stdio.h>
 #include<iostream>
+#include<vector>
+#include<map>
+
 using namespace std;
 int tree_head=0;
 
@@ -114,9 +117,32 @@ bool isPalindrome(int x) {
 		return false;
 	}
 }
-void RomanToInt()
+
+void qianzhuihe()
 {
+	vector<int> num{ 3, 7, 1, 7, 9 ,91,44,2};
 
+	// 修改你正在迭代的容器的值，或者你想避免拷贝大的对象
+	for (auto& it : num) {
+		//cout << ++it << endl;
+		++it;
+	}
+	// it 用于捕获vector里面的值
+	for (auto it : num) {
+		cout << it << endl;
+	}
 
+	map<int, int> num_map;//map遍历
+	num_map[2] = 4;
+	num_map[4] = 5;
+	num_map[6] = 1;
+	for (auto it : num_map) {
+
+		cout << it.first << endl
+			<< ",second: " << it.second << endl;
+
+	}
+	
 }
+
 
