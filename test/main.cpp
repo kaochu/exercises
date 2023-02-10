@@ -2,6 +2,7 @@
 #include<vector>
 #include"tree.h"
 #include"algorithm .h"
+#include<ctime>
 
 int main()
 {
@@ -26,6 +27,9 @@ int main()
 	
 	//init();
 
+	//removeElement();
+
+	
 
 	system("pause");
 	return 0;
